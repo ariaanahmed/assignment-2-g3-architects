@@ -417,4 +417,8 @@ nav ul li a{
         gap: 30px;
         align-items: center;
     }
+
+    .GalleryAllBoxes{
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
