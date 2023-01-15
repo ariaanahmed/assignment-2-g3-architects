@@ -8,6 +8,102 @@ body{
     font-family: 'Work Sans', sans-serif;
 }
 
+header{
+    background-color: #FFF4E7;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 h1, h2, h3, h4, h5, h6{
     color: #131313;
+}
+
+/* top-nav */
+
+.top-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid rgb(240, 218, 218);
+}
+
+.logo h3{
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+nav ul{
+    display: flex;
+    gap: 30px;
+}
+
+nav ul li{
+    list-style-type: none;
+    text-transform: capitalize;
+    padding: 5px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #424242;
+    font-weight: 500;
+}
+
+/* banner designs */
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+}
+
+.banner-title{
+    font-size: 3rem;
+    text-align: center;
+    line-height: 50px;
+}
+
+.banner-description{
+    color: #727272;
+    font-size: 1em;
+    text-align: center;
+    width: 85%;
+}
+
+.btn{
+    text-align: center;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: 700;
+    color: #FFF4E7;
+    background-color: #FF900E;
+    text-transform: capitalize;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.banner img{
+    width: 100%;
+}
+
+/* responsive designs for mobile*/
+@media screen and (max-width: 576px) {
+    .top-nav{
+        flex-direction: column;
+        border: none;
+        gap: 30px;
+    }
+    nav ul{
+        flex-direction: column;
+        text-align: center;
+    }
 }
