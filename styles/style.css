@@ -165,6 +165,80 @@ nav ul li a{
     
 }
 
+/* features designs */
+.features{
+    margin-top: 90px;
+    display: flex;
+    gap: 80px;
+    padding: 20px;
+    position: relative;
+}
+
+.features > div{
+    flex: 1;
+}
+
+.feature-contents{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.feature-title{
+    font-size: 2.5rem;
+    color: #131313;
+    border-left: 5px solid #FF900E;
+    margin-bottom: 30px;
+    padding: 5px 10px;
+}
+
+.feature-description{
+    font-size: 0.8em;
+    color: #727272;
+}
+
+
+.feature-thumbnail img{
+    width: 100%;
+}
+
+.sub-features{
+    padding: 10px 0px 10px 30px;
+    border-radius: 4px;
+    box-shadow: 0px 0px 16px -4px #c3c3c3;
+}
+
+.sub-features-title{
+    font-size: 1rem;
+    margin-bottom: 12px;
+}
+
+.sub-features-description{
+    font-size: 0.8em;
+    color: #727272;
+}
+
+.experience-btn{
+    position: absolute;
+    top: 90%;
+    left: 62%;
+    transform: translate(-50%, -50%);
+    border: none;
+    font-size: 2.5rem;
+    font-weight: 900;
+    background-color: #FF900E;
+    color: white;
+    padding: 20px 30px;
+    line-height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.experience-btn-design{
+    font-size: 20px;
+    font-weight: normal;
+}
+
 /* responsive designs for mobile*/
 @media screen and (max-width: 576px) {
     
@@ -208,5 +282,28 @@ nav ul li a{
     .quick-content{
         padding: 15px 0;
         width: 85%;
+    }
+
+    .features{
+        flex-direction: column;
+        margin-bottom: 200px;
+        gap: 40px;
+        position: relative;
+    }
+
+    .experience-btn{
+        position: absolute;
+        top: 95%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 15px 25px;
+        margin-top: 5px;
+        font-size: 1.5rem;
+        line-height: 10px;
+        cursor: pointer;
+        
+    }
+    .experience-btn-design{
+        font-size: 0.8rem;
     }
 }
