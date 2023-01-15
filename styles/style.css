@@ -342,6 +342,60 @@ nav ul li a{
     transform: rotate(2deg);
 }
 
+/* sponsor section design */
+.sponsor{
+    margin-top: 60px;
+}
+
+.sponsor-content {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.sponsor-content h1{
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+.sponsor-content p{
+    margin-bottom: 20px;
+    font-size: 0.8em;
+    color: #727272;
+}
+
+.sponsors-allboxes{
+    display: flex;
+    justify-content: space-between;
+    gap: 120px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.sponsor-singleboxes{
+    width: 100%;
+}
+
+.sponsor-singleboxes img{
+    width: 100%;
+    filter: grayscale(100%);
+}
+
+
+/* footer section design */
+footer{
+    background-color: #ddcdb9;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 90px;
+}
+
+footer p{
+    font-weight: 600;
+    font-size: 0.9em;
+    padding: 0 10px;
+}
+
+
 /* responsive designs for mobile*/
 @media screen and (max-width: 576px) {
     
@@ -391,6 +445,7 @@ nav ul li a{
         flex-direction: column;
         gap: 40px;
         position: relative;
+        margin-top: 30px;
     }
 
     .experience-btn{
@@ -408,9 +463,14 @@ nav ul li a{
     .experience-btn-design{
         font-size: 0.8rem;
     }
+
+    .some-fact{
+        margin-top: 30px;
+    }
     .some-fact-content{
         width: 90%;
         padding: 15px 20px;
+        text-align: center;
     }
     .SomeFactAllBoxes{
         flex-direction: column;
@@ -418,7 +478,42 @@ nav ul li a{
         align-items: center;
     }
 
+    .gallery{
+        margin-top: 30px;
+    }
+
+    .gallery h1{
+        font-size: 1.5rem;
+    }
     .GalleryAllBoxes{
         grid-template-columns: repeat(1, 1fr);
     }
+
+    .sponsor{
+        margin-top: 30px;
+    }
+    .sponsor-content{
+        width: 90%;
+    }
+    .sponsor-content h1{
+        font-size: 1.5rem;
+        
+    }
+
+    .sponsors-allboxes {
+        flex-direction: row;
+        gap: 15px;
+        padding: 0px 15px;
+        margin-top: 10px;
+    }
+
+    .sponsor-singleboxes{
+        width: 100%;
+    }
+    
+    .sponsor-singleboxes img{
+        width: 100%;
+        filter: grayscale(100%);
+    }
+
 }
