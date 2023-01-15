@@ -62,7 +62,7 @@ nav ul li a{
     gap: 40px;
     justify-content: center;
     align-items: center;
-    margin-top: 90px;
+    margin-top: 60px;
 }
 
 .banner-title{
@@ -99,7 +99,7 @@ nav ul li a{
 /* quick-list section designs */
 
 .quick-list{
-    margin-top: 90px;
+    margin-top: 60px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -167,7 +167,7 @@ nav ul li a{
 
 /* features designs */
 .features{
-    margin-top: 90px;
+    margin-top: 60px;
     display: flex;
     gap: 80px;
     padding: 20px;
@@ -242,7 +242,7 @@ nav ul li a{
 
 /* some-fact design */
 .some-fact{
-    margin-top: 90px;
+    margin-top: 60px;
 }
 
 .some-fact-content{
@@ -294,6 +294,53 @@ nav ul li a{
     border-color: #131313;
 }
 
+/* gallery section designs */
+
+.gallery{
+    margin-top: 60px;
+}
+
+.gallery h1{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 2rem;
+    padding-bottom: 10px;
+    width: 287px;
+    margin: 20px auto;
+}
+
+.GalleryAllBoxes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.GallerySingleBoxes img{
+    width: 100%;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+
+.GallerySingleBoxes{
+    border: 1px solid rgb(240, 232, 232);
+    padding: 20px;
+    box-shadow: 0px 0px 16px -4px #c3c3c3;
+    border-radius: 5px;
+}
+
+.GallerySingleBoxes h4{
+    color: #202020;
+    padding-bottom: 5px;
+}
+
+.GallerySingleBoxes p{
+    color: #727272;
+    padding-bottom: 5px;
+}
+
+.GallerySingleBoxes:hover{
+    transform: rotate(2deg);
+}
 
 /* responsive designs for mobile*/
 @media screen and (max-width: 576px) {
